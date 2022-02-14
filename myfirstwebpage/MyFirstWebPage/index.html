@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jee Wichuda</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+        <style>
+        </style>
+    <body>
+        <h1 id="main-title">Bangkok</h1>
+        <a>
+            <img src="https://media.nomadicmatt.com/bangkokguide.jpg" alt="Gif" width=400px><br>
+        </a>
+        <p class="paragraph-one"><em>Bangkok</em> is the capital and most populous city of Thailand. It is known in Thai as 
+        Krung Thep Maha Nakhon or simply Krung Thep. The city occupies 1,568.7 square kilometres 
+        (605.7 sq mi) in the Chao Phraya River delta in central Thailand and has a population of over 
+        eight million, 12.6 percent of the country's population. Over fourteen million people 
+        (22.2 percent) lived within the surrounding <em>Bangkok</em> Metropolitan Region at the 2010 census, 
+        making Bangkok the nation's primate city, dwarfing Thailand's other urban centres in both size 
+        and importance to the national economy.</p>
+        
+        <p class="paragraph-two"><em>Bangkok</em> traces its roots to a small trading post during the Ayutthaya Kingdom in the 
+        15th century, which eventually grew and became the site of two capital cities: Thonburi in 
+        1768 and Rattanakosin in 1782. <em>Bangkok</em> was at the heart of the modernization of Siam, 
+        later renamed Thailand, during the late-19th century, as the country faced pressures from the 
+        West. The city was at the centre of Thailand's political struggles throughout the 20th 
+        century, as the country abolished absolute monarchy, adopted constitutional rule, and 
+        underwent numerous coups and several uprisings. The city grew rapidly during the 1960s through 
+        the 1980s and now exerts a significant impact on Thailand's politics, economy, education, 
+        media and modern society.</p>
+            
+            <div class="imgbkk">
+                    <img src="../../MyFirstWebPage/MyFirstWebPage/images/bangkok-01.jpg" alt="bangkok-01" width="20%">
+                    <img src="../../MyFirstWebPage/MyFirstWebPage/images/bangkok-02.jpg" alt="bangkok-02" width="20%">
+                        <br>
+            <a class="wikipedialink1" href="https://en.wikipedia.org/wiki/Bangkok" Target="_blank">Bankok More You Known</a>
+            </div>
+    
+            <div class="basicinfobkk">
+                <h2>Basic Info</h2>
+                <ul>
+                    <li> Country: Thailand</li>
+                    <li> Area: 1,568.7 sq km</li>
+                    <li> Population: 8,305,218</li>
+                 </ul>
+            </div>
+
+            <br>
+     <table>
+         <tr>
+            <th>Info</th>
+            <th>Info Volume</th>
+         </tr>
+         <tr>
+            <td>Country</td>
+            <td>Thailand</td>
+        </tr>
+        <tr>
+            <td>Area</td>
+            <td>1,568,7 sq km</td>
+        </tr>
+        <tr>
+            <td>Population</td>
+            <td>8,305,218</td>
+        </tr>
+     </table>
+    
+       
+        <Form class="worktravel">
+                <h1>Travel reservation</h1>
+                <h2> *denotes mandatory</h2>
+                    <dv>
+                    <Label>Full name*:</Label>
+                        <br>
+                    <input id="fullname" name="fullname" type="text" placeholder="FirstName LastName" required>
+                    </dv>
+
+                    <div>
+                    <label>Email Address*:</label>
+                        <br>
+                    <input name="email" type="email" placeholder="EMAIL_ADDRESS" id="email" required />
+                    </div>
+        
+                    <div>  
+                    <label>Select Tour Package*:</label>
+                        <br>
+                    <Select name="Select Tour Package*">
+                        <option value="Goa">Goa</option>
+                        <option value="AAA">AAA</option>
+                        <option value="BBB">BBB</option>
+                    </Select>
+                    </div>
+                    <div>
+                    <label>Arrival date*</label>
+                    <input type="datetime" placeholder="m/d/y" required/>
+                    </div>
+                    
+                    <div>
+                    <label>Number of person*:</label>
+                    <input id="Number" type="number" Placeholder="UNKNOWN_TYPE" required/>
+                    </div>
+                  
+                    <div>
+                    <label>What would you want to avail?*</label>
+                    <label>Boarding</label>
+                        <input type="checkbox" id="Boarding" name="avail1" value="Boarding">
+                    <label>Fooding</label>
+                        <input type="checkbox" id="Fooding" name="avail2" value="Fooding">           
+                    <label>Sight seeing</label>
+                        <input type="checkbox" id="Sight_seeing" name="avail3" value="Sight_seeing">
+                   </div>
+                    
+                   <div>
+                    <label>Discout Coupon code:</label>
+                            <br>
+                        <input id="Coupon" type="text" placeholder="UNKNOWN_TYPE"/>
+                    </div>
+                    <div>
+                    <label>Terms and conditions*:</label>
+                        <input type="radio" id="agree" name="terms" value="agree" required>
+                        <label>I agree</label>
+                        <input type="radio" id="disagree" name="terms" value="disagree">
+                        <label>I disagree</label>
+                    </div>
+                            <br>
+                        <input type="submit" value="Complete reservation">
+</form>
+    </body>
+</html>
