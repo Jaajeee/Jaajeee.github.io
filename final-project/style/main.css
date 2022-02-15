@@ -1,0 +1,238 @@
+body {
+font-family: 'Francois One', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Padauk', sans-serif;
+width: 1440px;
+margin: auto;
+}
+
+
+.navbar-menu {
+    padding-left: 14px;
+    font-weight: 600;
+
+}
+.navbar-item {
+    font-size: 42px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 2px 8px 2px 8px; 
+    color: rgb(237, 237, 237);
+    border-bottom: 1px;
+    background-color: #5d8f8f;
+    border-radius: 12px;
+} 
+
+.data-nav {
+    display: none
+}
+/* for data OK */
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ /* for indext OK*/
+ #forindx {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+ }
+/* -------------------------------- */
+/* profile */
+#profile-1{
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-right: 64px;
+    margin-left: 64px;
+    z-index: inherit;
+}
+
+.profile-leftbar{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-menu{
+
+  
+}
+
+.menu-list { 
+    font-size: 18px;
+    color: darkslategray;
+}
+
+/* class font grey */
+
+.grey-c{
+ color: rgb(41, 82, 82)
+}
+
+.log-button {
+   display: inline-block;
+    padding: 5px;
+    color: rgb(170, 39, 39);
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.img-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* formlsit ------------------------------- */
+.textarea {
+    width: 400px;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+    margin: 12px;
+}
+/* ------------------------------------------ */
+/* form list1 name */
+.list-item {
+    font-size: 32px;
+    font-weight: 600;
+    padding: auto;
+    color: darkslategray;
+}
+
+.n-name {
+    font-size: 32px;
+    font-weight: 600;
+    padding: auto;
+    color: darkslategray;
+}
+
+.des-name {
+    font-size: 32px;
+    font-weight: 600;
+    padding: auto;
+    color: darkslategray;
+}
+.k-cal {
+     font-size: 32px;
+    font-weight: 600;
+    padding: auto;
+    color: darkslategray;
+}
+.f-date {
+    font-size: 32px;
+    font-weight: 600;
+    padding: auto;
+    color: darkslategray;
+}
+
+.button{
+    color: rgb(231, 233, 233);
+    background-color: darkslategray;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+}
+/* --------------------------------- */
+/* List name */
+
+.n-name {
+
+}
+
+.des-name{
+
+
+}
+
+.list-item{
+
+}
+
+.k-cal{
+
+}  
+
+.f-date{
+
+}
+
+/* ---------------------------------- */
+/* -----------data */
+#data-1{
+}
+
+.table{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+table {
+    width: 100%;
+}
+
+th, tr{
+    padding: 24px; 
+    text-align: center;
+    font-size: 32px;
+    z-index: inherit;
+}
+tr:nth-child(even){
+    background-color: #5d8f8f;
+    color: rgb(255, 255, 255);
+}
+th{
+    background-color: rgb(184, 184, 184);
+    color: darkslategrey;
+    padding: 24px;
+}
+
+.tab1{
+   display: flex;
+   align-items: center;
+}
+
+td{
+    padding: 24px; 
+    text-align: center;
+    font-size: 32px;
+    z-index: inherit;
+    color: rgb(61, 61, 61);
+}
+/* ---------add button */
+.add-button {
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(250, 248, 248);
+    background-color:#2f4f4f ;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 8px;
+}
+
+
+/* add activity */
+.add-activity{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    z-index: inherit;
+    margin-top: 32px;
+}
+   
