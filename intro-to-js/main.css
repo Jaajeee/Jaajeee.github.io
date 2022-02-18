@@ -20,9 +20,8 @@ button {
     color: rgb(135, 135, 135);
 }
 
-
 p {
-    font-size: 32px;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
     margin: auto;
