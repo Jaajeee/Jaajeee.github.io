@@ -21,12 +21,9 @@ function askMyName() {
 
 
 function loadProfile(){
-   const name = (" Jajee " + "")
-   const province = (" Lampang " + "")
+   const name = (" Jajee ")
+   const province = (" Lampang ")
    
    document.getElementById("my-name").innerHTML = name 
    document.getElementById("my-province").innerHTML = province
-
-
-
 }
