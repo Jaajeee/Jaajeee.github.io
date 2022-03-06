@@ -7,22 +7,22 @@ body {
     align-items:center;
     padding-top: 32px;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 20px;
+    
 }
 
 button {
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 24px;
     margin: 24px;
     border-radius: 12px;
     color: rgb(135, 135, 135);
+    onhover
 }
 
 p {
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
+    font-size: 20px;                                                                                                                                                                                
     margin: auto;
 }
