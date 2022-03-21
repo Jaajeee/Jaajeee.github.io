@@ -1,66 +1,8 @@
 /* For Debugging */
-/* * {
-  border: 1px solid black
-} */
 body { font-family: 'Francois One', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Padauk', sans-serif;
 font-family: 'Roboto', sans-serif;
-
-
-}
-
-ul {
-    list-style-position: outside;
-    padding-inline-start: 0px;
-  }
-  
-  li {
-    list-style-type: none;
-  }
-  
-  #banner {
-    background-color: gray
-  }
-  
-  #blog {
-    background-color: gainsboro
-  }
-  
-  /* Nav */
-  .ca-navbar {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .ca.navber div{
-    width: 100%;
-    border: 1px solid red;
-  }
-  
-  .ca-navbar-logo {
-    display: flex;
-    align-items: center;
-    
-  }
-  
-  .ca-menu {
-    display:flex;
-    align-items: center;
-    justify-content: flex-end;
-    
-  }
-  
-  .ca-menu li {
-    padding-left:16px;
-    
-  }
-  
-  /* banner */
-.bannerpic {
-   display: flex;
-   justify-content: flex-start;
-
 }
 
 
